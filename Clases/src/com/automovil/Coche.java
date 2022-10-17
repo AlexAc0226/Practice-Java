@@ -9,14 +9,16 @@ public class Coche {
     Double largo;
     Integer velocidad = 0;
 
-    // Constructor
-    public Coche(String colo, String fabric, String mod, Double pes, Double larg, Integer vel) {
-        this.color = colo;
-        this.fabricante = fabric;
-        this.modelo = mod;
-        this.peso = pes;
-        this.largo = larg;
-        this.velocidad = vel;
+    // Constructores
+    public Coche(){}
+    public Coche(String color, String fabricante, String modelo, Double peso, Double largo, Integer velocidad) {
+
+        this.color = color;
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.peso = peso;
+        this.largo = largo;
+        this.velocidad = velocidad;
     }
 
     // Metodoo
