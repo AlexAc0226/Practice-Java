@@ -1,7 +1,6 @@
 package com.automovil;
 
 public class Coche {
-    // Atributos
     String color;
     String fabricante;
     String modelo;
@@ -9,7 +8,6 @@ public class Coche {
     Double largo;
     Integer velocidad = 0;
 
-    // Constructores
     public Coche(){}
     public Coche(String color, String fabricante, String modelo, Double peso, Double largo, Integer velocidad) {
 
@@ -21,7 +19,6 @@ public class Coche {
         this.velocidad = velocidad;
     }
 
-    // Metodoo
     public Integer sumarVelocidad(Integer vel) {
         if (vel > 0 && vel <= 200) return this.velocidad += vel;
         else return this.velocidad;
