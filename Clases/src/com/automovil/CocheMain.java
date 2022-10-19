@@ -25,6 +25,10 @@ public class CocheMain {
         cocheElectricoObj.motorElectrico = "Electrico";
         System.out.println(cocheElectricoObj);
 
+        CocheElectrico cocheElectricoObj2 = new CocheElectrico("Azul", "Tesla", "Model S", 1000.0, 4.0, 12, "Electrico");
+        cocheElectricoObj2.sumarVelocidad(11);
+        System.out.println(cocheElectricoObj2.velocidad);
+
     }
 
 

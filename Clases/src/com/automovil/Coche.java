@@ -10,7 +10,6 @@ public class Coche {
 
     public Coche(){}
     public Coche(String color, String fabricante, String modelo, Double peso, Double largo, Integer velocidad) {
-
         this.color = color;
         this.fabricante = fabricante;
         this.modelo = modelo;
@@ -19,11 +18,10 @@ public class Coche {
         this.velocidad = velocidad;
     }
 
-    public Integer sumarVelocidad(Integer vel) {
-        if (vel > 0 && vel <= 200) return this.velocidad += vel;
+    public int sumarVelocidad(int vel) {
+        if (vel > 0 && vel <= 250) return this.velocidad += vel;
         else return this.velocidad;
     }
-
 
     @Override
     public String toString() {
@@ -37,6 +35,5 @@ public class Coche {
                 '}';
     }
 
-    public void main(String[] args) {
-    }
+
 }
