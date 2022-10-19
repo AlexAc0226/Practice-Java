@@ -29,7 +29,7 @@ public class CocheElectrico  extends Coche {
    // Sobreescritura de metodo
     @Override
     public int sumarVelocidad(int vel) {
-        int result = vel + 99;
+        int result = vel + 100;
         return super.sumarVelocidad(result);
     }
 }
