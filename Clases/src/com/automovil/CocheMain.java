@@ -4,11 +4,11 @@ public class CocheMain {
     public static void main(String[] args) {
 
 
-        Coche cocheObj = new Coche("Rojo", "Ferrari", "F40", 1000.0, 4.0, 250);
 
-        Coche cocheObj2 = new Coche();
-        cocheObj2.sumarVelocidad(100);
-        System.out.println(cocheObj2.velocidad);
+         // La clase coche no pued ser instanciada porque es abstracta
+        //Coche cocheObj2 = new Coche();
+        //cocheObj2.sumarVelocidad(100);
+        //System.out.println(cocheObj2.velocidad);
 
         CocheHibrido cocheHibridoObj = new CocheHibrido();
         cocheHibridoObj.color = "Verde";

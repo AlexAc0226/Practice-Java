@@ -1,6 +1,6 @@
 package com.automovil;
 
-public class Coche {
+public abstract class Coche {
     String color;
     String fabricante;
     String modelo;
