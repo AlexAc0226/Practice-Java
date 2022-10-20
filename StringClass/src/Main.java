@@ -9,7 +9,7 @@ public class Main {
         String cadena2 = "Holaa ALEXNADER";
         if (cadena.equals(cadena2)) System.out.println("Son iguales");
         else System.out.println("Son diferentes");
-            
+
 
 
 
