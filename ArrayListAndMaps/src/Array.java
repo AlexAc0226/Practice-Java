@@ -1,5 +1,8 @@
 public class Array {
     public static void main(String[] args) {
+        // IMPORTANTE: Los array son estructuras estadicas, es decir que una ves declara su tamaño, se mantendra siempre de ese tamaño.
+
+
         String name1 = "Gergő";
         String name2 = "Tom";
         String name3 = "Stacey";
